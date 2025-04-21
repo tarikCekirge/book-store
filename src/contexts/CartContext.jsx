@@ -8,7 +8,7 @@ export const useCart = () => useContext(CartContext);
 
 
 export const CartContextProvider = ({ children }) => {
-    const [cart, setCart] = useLocalStorage('s11d1', []);
+    const [cart, setCart] = useLocalStorage('s11g1', []);
 
     const addItem = (item) => {
         setCart([...cart, item])
